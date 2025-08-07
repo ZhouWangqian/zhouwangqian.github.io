@@ -1,0 +1,65 @@
+{{- /* theme-toggle is enabled */}} 
+{{- if (not site.Params.disableThemeToggle) }} 
+  {{- /* theme is light */}} 
+  {{- if (eq site.Params.defaultTheme "light") }} 
+  {{- /* theme is dark */}} 
+  {{- else if (eq site.Params.defaultTheme "dark") }} 
+  {{- else }} 
+    {{- /* theme is auto */}} 
+  {{- end }} 
+{{- /* theme-toggle is disabled and theme is auto */}} 
+{{- else if (and (ne site.Params.defaultTheme "light") (ne site.Params.defaultTheme "dark"))}} 
+{{- end }}
+
+{{- $label_text := (site.Params.label.text | default site.Title) }} 
+{{- if site.Title }} 
+  {{- if site.Params.label.icon }} 
+    {{- $img := resources.Get site.Params.label.icon }} 
+    {{- if $img }} 
+      {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}} 
+      {{- if hugo.IsExtended -}} 
+        {{- $processableFormats = $processableFormats | append "webp" -}} 
+      {{- end -}} 
+      {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }} 
+      {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}} 
+        {{- if site.Params.label.iconHeight }} 
+          {{- $img = $img.Resize (printf "x%d" site.Params.label.iconHeight) }} 
+        {{ else }} 
+          {{- $img = $img.Resize "x30" }} 
+        {{- end }} 
+      {{- end }} 
+    {{- end -}} 
+  {{- else if hasPrefix site.Params.label.iconSVG " }} 
+  {{- end }}
+{{- end }}
+
+<!-- ✅ Add this favicon link manually -->
+<link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
+
+{{- if (not site.Params.disableThemeToggle) }} 
+{{- end }} 
+
+{{- $lang := .Lang}} 
+{{- $separator := or $label_text (not site.Params.disableThemeToggle)}} 
+{{- with site.Home.Translations }}
+  {{- if $separator }} | {{ end }} 
+  {{- range . -}} 
+    {{- if ne $lang .Lang }}
+      {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }} 
+        {{- .Language.LanguageName | emojify -}} 
+      {{- else }} 
+        {{- .Lang | title -}} 
+      {{- end -}}
+    {{- end -}} 
+  {{- end}}
+{{- end }}
+
+{{- $currentPage := . }}
+{{- range site.Menus.main }} 
+  {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }} 
+  {{- $page_url:= $currentPage.Permalink | absLangURL }} 
+  {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
+  {{- .Pre }}{{- .Name -}}{{ .Post -}} 
+  {{- if (findRE "://" .URL) }} 
+  {{- end }}
+{{- end }}
