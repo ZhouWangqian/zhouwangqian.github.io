@@ -35,7 +35,7 @@ Soared in the Alps.
 ![](2025May_TAI2.jpg)
 ![](2025May_TAI3.jpg)
 ![](2025May_TAI4.jpg)
-{{< hvideo src="/happenings/2025May_TAI5.mp4" >}}
+{{< hvideo src="happenings/2025May_TAI5.mp4" >}}
 {{< /hscroll >}}
 
 --- 
@@ -56,7 +56,7 @@ Went to the Fudan International Summer School of Linguistics
 
 ### June 2024
 
-Graduated from Beijing Foreign Studies University with the honorary title of Outstanding Graduate of Beijing (北京市優秀畢業生).<br>
+Graduated from Beijing Foreign Studies University with the honorary title of Outstanding Graduate of Beijing.<br>
 {{< hscroll >}}
 ![](2024Jun_BFSU1.jpg)
 ![](2024Jun_BFSU2.jpg)
