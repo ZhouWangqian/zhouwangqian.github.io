@@ -19,10 +19,3 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
   max-width: none !important;
   height: 400px;
 }
-
-@media (max-width: 600px){
-  .hscroll img,
-  .hscroll video{
-    height: 240px;
-  }
-}

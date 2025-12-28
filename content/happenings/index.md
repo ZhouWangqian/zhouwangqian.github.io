@@ -45,20 +45,12 @@ Soared in the Alps.
 Officially joined CUHK.<br>
 Went to the Fudan International Summer School of Linguistics
 2024.<br>
-{{< hscroll >}}
-![](2024Aug_CUHK1.jpg)
-![](2024Aug_Fudan1.jpg)
-![](2024Aug_Fudan2.jpg)
-{{< /hscroll >}}
+
 
 ---
 
 ### June 2024
 
 Graduated from Beijing Foreign Studies University with the honorary title of Outstanding Graduate of Beijing (北京市優秀畢業生).<br>
-{{< hscroll >}}
-![](2024Jun_BFSU1.jpg)
-![](2024Jun_BFSU2.jpg)
-![](2024Jun_BFSU3.jpg)
-{{< /hscroll >}}
+
 
