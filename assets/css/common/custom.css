@@ -1,0 +1,22 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+
+.hscroll{
+  display:flex;
+  gap:12px;
+  overflow-x:auto;
+  padding:8px 0;
+  scroll-snap-type:x mandatory;
+}
+
+.hscroll img,
+.hscroll video{
+  flex:0 0 auto;
+  height:400px;          /* change as you like */
+  width:auto;
+  border-radius:10px;
+  scroll-snap-align:start;
+}

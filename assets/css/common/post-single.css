@@ -50,11 +50,14 @@
 }
 
 .post-content h3 {
-    font-size: 19px;    
+    font-size: 20px; 
+    font-weight: var(--semibold);    
+    color: #985f8c;
+    text-transform: uppercase;
 }
 
 .post-content h4 {
-    font-size: 15px;    
+    font-size: 16px;    
     font-weight: var(--semibold);
     text-transform: uppercase;
     color: var(--gray);
