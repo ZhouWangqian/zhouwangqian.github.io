@@ -35,7 +35,7 @@ Soared in the Alps.
 ![](2025May_TAI2.jpg)
 ![](2025May_TAI3.jpg)
 ![](2025May_TAI4.jpg)
-{{< hvideo src="content/happenings/2025May_TAI5.mp4" >}}
+{{< hvideo src="2025May_TAI5.mp4" >}}
 {{< /hscroll >}}
 
 --- 
