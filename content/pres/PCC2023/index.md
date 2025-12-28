@@ -1,6 +1,6 @@
 ---
 title: "Legacy of the Yang-Ping/Ru-Sheng Distinction: Production of Changsha Mandarin Tone 2 by Different Genders" 
-date: 2023-07-16
+date: 2023-07-08
 tags: ["Plastic Mandarin","Changsha Xiang","fundamental frequency","gender"]
 author: ["Wangqian Zhou"]
 description: "This study sought to determine if in the production of Mandarin Tone 2 words by Changsha Mandarin speakers, discrimination is made between words going into the yang-ping/ru-sheng divides in Changsha Xiang ..." 
