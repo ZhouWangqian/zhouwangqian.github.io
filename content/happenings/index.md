@@ -1,14 +1,14 @@
 ---
-title: "2025"
+title: "Happenings"
 date: 2025-12-25
 hidemeta: true
-description: "More about the year of 2025."
+description: "News an happenings."
 
 ---
 
 --- 
 
-### July 
+### July 2025
 
 Spent the summer (my first LSA summer) in Eugene, Oregon. <br>
 Made friends, had fun, and learnt a lot.<br>
@@ -24,7 +24,7 @@ Won first place in the Poster Session.<br>
 
 ---
 
-### May
+### May 2025
 
 Presented my paper at TAI2025 in Herrsching, Germany.<br>
 Played table tennis with a bunch of linguists.<br>
@@ -37,3 +37,28 @@ Soared in the Alps.
 ![](/happenings/2025May_TAI4.jpg)
 {{< hvideo src="/happenings/2025May_TAI5.mp4" >}}
 {{< /hscroll >}}
+
+--- 
+
+### August 2024
+
+Officially joined CUHK.<br>
+Went to the Fudan International Summer School of Linguistics
+2024.<br>
+{{< hscroll >}}
+![](/happenings/2024Aug_CUHK1.jpg)
+![](/happenings/2024Aug_Fudan1.jpg)
+![](/happenings/2024Aug_Fudan2.jpg)
+{{< /hscroll >}}
+
+---
+
+### June 2024
+
+Graduated from Beijing Foreign Studies University with the honorary title of Outstanding Graduate of Beijing (北京市優秀畢業生).<br>
+{{< hscroll >}}
+![](/happenings/2024Jun_BFSU1.jpg)
+![](/happenings/2024Jun_BFSU2.jpg)
+![](/happenings/2024Jun_BFSU3.jpg)
+{{< /hscroll >}}
+

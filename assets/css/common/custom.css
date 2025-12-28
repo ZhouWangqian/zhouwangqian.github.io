@@ -12,11 +12,15 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
   scroll-snap-type:x mandatory;
 }
 
+.hscroll > *{
+  flex:0 0 auto;
+  scroll-snap-align:start;
+}
+
+/* media sizing only */
 .hscroll img,
 .hscroll video{
-  flex:0 0 auto;
-  height:400px;          /* change as you like */
+  height:400px;
   width:auto;
   border-radius:10px;
-  scroll-snap-align:start;
 }
