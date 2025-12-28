@@ -91,7 +91,7 @@ I'm currently working on the **<a style='color: #893f8c;'>production and percept
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: zhoucv.pdf
         - name: ORCID
           url: https://orcid.org/0009-0007-0892-0513
         - name: OSF
