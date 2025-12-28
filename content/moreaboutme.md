@@ -56,6 +56,7 @@ I advocate for both **language preservation** and **multilingualism**.
 
 ### **Hobbies and interests**
 
++ I'm a cinephile.
 + Hunan cuisine is GOAT. 
 + I’ve always wanted to travel around the world.
 + I'd count myself as a railfan and an amateur urbanist.
