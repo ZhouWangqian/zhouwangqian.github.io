@@ -40,7 +40,7 @@ B.A.<br>
 
 ### **Facts and opinions**
 
-My name 望千 literally translates to **"Looking toward the millennium"**, because I was born in the final month of 1999.
+My name 望千 literally translates to **"looking toward the millennium"**, or figuratively, **"approaching the millennium"**, because I was born in the final month of 1999.
 
 I live and enjoy living a multilingual life.
 + Most of the time, my spoken English resembles a Southern British accent. But don't get me wrong. I have zero intention to sound posh in any way.
