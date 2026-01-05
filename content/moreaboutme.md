@@ -43,7 +43,7 @@ B.A.<br>
 My name 望千 literally translates to **"Looking toward the millennium"**, because I was born in the final month of 1999.
 
 I live and enjoy living a multilingual life.
-+ I speak English with a slight British accent, with zero intention to sound posh in any way.
++ Most of the time, my spoken English resembles a Southern British accent. But don't get me wrong. I have zero intention to sound posh in any way.
 + I speak multiple varieties of **Xiang** (Changsha and Lower Ningxiang) and **Mandarin** (Plastic Mandarin, Standard Mandarin, and Changde Mandarin).
 + I know a bit of **Cantonese**, **Spanish**, and **Portuguese**, but still need to work hard before I can fluently communicate with people.
 
